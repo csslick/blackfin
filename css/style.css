@@ -148,3 +148,71 @@ header #main-menu ul li a:hover{
 #product .container ul.products li:hover img{
   transform: scale(1);
 }
+
+/* 3.section - Latest News */
+#news{
+  margin-top: 100px;
+}
+#news .container{
+  text-align: center;
+}
+#news h4{ 
+  font-size: 28px;
+  line-height: 360px;
+  color: #fff;
+  text-shadow: 1px 1px 2px rgba(0,0,0,0.3);
+}
+#news .container ul.news-list li{
+  border: 1px solid #ddd;
+  width: 49.25%;
+  height: 360px;
+  margin-right: 1.5%;
+  float: left;
+}
+#news .container ul.news-list li:last-child{
+  margin-right: 0;
+}
+/* 배경이미지 가변 틀 */
+#news .container ul.news-list li:first-child{
+  background: #666;
+  background-image: url('http://placeimg.com/640/480/any/grayscale');
+}
+#news .container ul.news-list li:last-child{
+  background: #666;
+  background-image: url('http://placeimg.com/640/480/people/grayscale');
+}
+
+/* 4.section - Shop(지점, 판매처) */
+#shop{
+  margin-top: 100px;
+  height: 500px;
+  background: #ccc;
+  /* 
+    가로세로 16:9, 폭1200이상의 이미지 
+    1920 x 1080(HD) 권장
+  */
+  background-image: url('../images/section-bg.jpg');
+  background-size: cover;
+}
+#shop h2{ 
+  height: 0;
+  overflow: hidden;
+}
+#shop .container{
+  text-align: center;
+}
+.btn-normal{
+  display: inline-block;
+  font-size: 2em;
+  line-height: 0;
+  padding: 32px 64px;
+  border: 2px solid rgba(255,255,255,1);
+  color: #fff;
+}
+.btn-normal:hover{
+  border: 2px solid rgba(255,255,255,0.8);
+  color: rgba(255,255,255,0.8);
+}
+#shop .container .btn-normal{
+  margin-top: 160px;
+}
