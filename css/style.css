@@ -36,8 +36,13 @@ ul{ list-style-type: none;}
   margin: 0 auto;
   /* border: 1px solid red; */
 }
+section{
+  overflow: hidden;
+  padding-bottom: 40px;
+}
 section h2{ 
   margin-bottom: 1em;
+  margin-top: 1em;
   font-size: 32px;
 }
 
@@ -48,6 +53,7 @@ section h2{
   background: #ccc;
   background-image: url("../images/bg01-dark.jpg");
   background-size: cover;
+  background-position: center center;
 }
 #main-header .container{
   /* height: 80px;
@@ -108,4 +114,37 @@ header #main-menu ul li a:hover{
 }
 #brand .container{
   text-align: center;
+  padding-left: 20%;
+  padding-right: 20%;
+}
+
+/* 2.section - Product(제품 라인업) */
+#product{
+  margin-top: 100px;
+}
+#product .container{
+  text-align: center;
+}
+#product .container .products{
+  width: 100%;
+}
+#product .container ul.products li{
+  width: 32.33%;
+  float: left;
+  border: 1px solid #ddd;
+}
+#product .container ul.products li{
+  margin-right: 1.5%;
+  padding: 1em;
+}
+#product .container ul.products li:last-child{
+  margin-right: 0;
+}
+/* 효과 */
+#product .container ul.products li img{
+  transform: scale(0.8);
+  transition: 0.4s;
+}
+#product .container ul.products li:hover img{
+  transform: scale(1);
 }
