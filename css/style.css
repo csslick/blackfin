@@ -25,7 +25,8 @@ p, a{
 }
 html, body{ height: 100%;}
 body{
-  font-family: 'Open Sans', 'Nanum Gothic', sans-serif;overflow: hidden;
+  font-family: 'Open Sans', 'Nanum Gothic', sans-serif;
+  overflow-x: hidden;
 }
 a{ text-decoration: none;}
 ul{ list-style-type: none;}
