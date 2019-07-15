@@ -25,7 +25,7 @@ p, a{
 }
 html, body{ height: 100%;}
 body{
-  font-family: 'Open Sans', 'Nanum Gothic', sans-serif; 
+  font-family: 'Open Sans', 'Nanum Gothic', sans-serif;overflow: hidden;
 }
 a{ text-decoration: none;}
 ul{ list-style-type: none;}
@@ -38,7 +38,7 @@ ul{ list-style-type: none;}
 }
 section{
   overflow: hidden;
-  padding-bottom: 40px;
+  /* padding-bottom: 40px; */
 }
 section h2{ 
   margin-bottom: 1em;
@@ -114,8 +114,8 @@ header #main-menu ul li a:hover{
 }
 #brand .container{
   text-align: center;
-  padding-left: 20%;
-  padding-right: 20%;
+  padding-left: 15%;
+  padding-right: 15%;
 }
 
 /* 2.section - Product(제품 라인업) */
@@ -215,4 +215,30 @@ header #main-menu ul li a:hover{
 }
 #shop .container .btn-normal{
   margin-top: 160px;
+}
+
+/* 5.section - instagram(SNS) */
+#sns{
+  margin-top: 100px;
+  text-align: center;
+}
+#sns ul li{
+  width: 20%;
+  float: left;
+}
+#sns ul li img{ width: 100%;}
+
+/* footer */
+#main-footer{
+  text-align: center;
+  padding: 50px 0;
+  background: #efefef;
+  margin-top: 100px;
+}
+#main-footer .footer-logo{
+
+}
+#main-footer .footer-logo a img{ width: 100px;}
+.footer-text{
+  font-size: 15px;
 }
