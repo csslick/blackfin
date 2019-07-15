@@ -48,18 +48,11 @@ section h2{
 }
 
 #main-header{
-  /* position: relative; */
+  position: absolute;
+  left: 0; right: 0; top: 0;
   width: 100%;
-  height: 100%;
-  background: #ccc;
-  background-image: url("../images/bg01-dark.jpg");
-  background-size: cover;
-  background-position: center center;
-}
-#main-header .container{
-  /* height: 80px;
-  background: #ccc; */
-  height: 100%;
+  height: 80px;
+  z-index: 99;
 }
 header h1 img{
   width: 190px;
@@ -73,7 +66,7 @@ header #main-menu{
   right: 0; top: 30px;
   text-transform: uppercase;
 }
-#main-header .inner{
+#main-header {
   background: rgba(0,0,0,0.3);
   height: 80px;
 }
@@ -89,25 +82,43 @@ header #main-menu ul li a{
 header #main-menu ul li a:hover{
   opacity: 0.7;
 }
-#main-header .main-title{
+
+
+/* 0.visual */
+#visual{
+  width: 100%;
+  height: 100%;
+  background: #ccc;
+  background-image: url("../images/bg01-dark.jpg");
+  background-size: cover;
+  background-position: center center;
+}
+#visual .container{
+  position: relative;
+  height: 100%;
+  /* border: 1px solid red; */
+  
+}
+#visual .container .main-title{
   position: absolute;
   /* border: 1px solid red; */
+  color: #fff;
   /* 텍스트 중앙 배치 */
   text-align: center;
-  left: 50%;
-  transform: translateX(-50%);
-  top: 650%;
+  left: 50%; top: 50%;
+  transform: translate(-50%, -50%);
 }
-#main-header .main-title h2{
+#visual .main-title h2{
   color: #fff;
   font-size: 56px;
   text-shadow: 2px 2px 4px rgba(0,0,0,0.3);
 }
-#main-header .main-title p{
+#visual .main-title p{
   color: #fff;
   font-size: 28px;
   text-shadow: 2px 2px 4px rgba(0,0,0,0.3);
 }
+
 
 /* 1.section - Blackfin(브랜드 소개) */
 #brand{
@@ -118,6 +129,7 @@ header #main-menu ul li a:hover{
   padding-left: 15%;
   padding-right: 15%;
 }
+
 
 /* 2.section - Product(제품 라인업) */
 #product{
