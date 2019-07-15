@@ -123,6 +123,10 @@ header #main-menu ul li a:hover{
 #product{
   margin-top: 100px;
 }
+#product h4{
+  font-size: 18px;
+  font-weight: normal;
+}
 #product .container{
   text-align: center;
 }
@@ -148,6 +152,10 @@ header #main-menu ul li a:hover{
 }
 #product .container ul.products li:hover img{
   transform: scale(1);
+}
+#product .products a{
+  display: block;
+  /* border: 1px solid red; */
 }
 
 /* 3.section - Latest News */
