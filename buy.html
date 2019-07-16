@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Buy(구매) &lt; Blackfin</title>
+  <!-- 구글웹폰트 -->
+  <link href="https://fonts.googleapis.com/css?family=Nanum+Gothic|Open+Sans&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <style>
+    #buy #section-buy{
+      overflow: hidden;
+    }
+    #buy #section-buy figure{
+      width: 50%;
+      float: left;
+      padding-top: 100px;
+      text-align: center;
+    }
+    #buy #section-buy .info-box{
+      width: 50%;
+      float: left;
+    }
+  </style>
+</head>
+
+<body id="buy">
+  <!-- 헤더 -->
+  <header id="main-header">
+    <div class="container">
+      <h1>
+        <a href="index.html">
+          <img src="images/Blackfin-logopng2.png" alt="logo">
+        </a>
+      </h1>
+      <!-- 메뉴 
+      sun | optical | neomadeinitaly | titanium | credo | shops
+    -->
+      <nav id="main-menu">
+        <ul>
+          <li><a href="sub01.html">sun</a></li>
+          <li><a href="#">optical</a></li>
+          <li><a href="#">neomadeinitaly</a></li>
+          <li><a href="#">titanium</a></li>
+          <li><a href="#">credo</a></li>
+          <li><a href="#">shops</a></li>
+        </ul>
+      </nav>
+    </div><!-- end container -->
+  </header>
+
+  <main>
+    <!-- 제품 구매 -->
+    <section id="section-buy">
+      <div class="container">
+        <figure>
+          <img src="images/product01_thumb.jpg" alt="">
+        </figure>
+
+        <div class="info-box">
+          <!-- 제품 가격정보 -->
+          <div class="info">
+            <h2>OAKLAND</h2>
+            <span class="price">200,000원</span>
+            <div class="sub-price">
+              <span class="title">배송비</span>
+              <span class="price">3,000원</span>
+            </div>
+          </div>
+          <!-- 수량 입력 -->
+          <div class="quantity">
+            <span class="title">수량</span>
+            <button>-</button>
+            <input type="text" value="1">
+            <button>+</button>
+          </div>
+          <!-- 구매버튼 -->
+          <button id="btn-buy">구매하기</button>
+          <button id="btn-cart">장바구니에 담기</button>
+          <!-- 설명글 -->
+          <p class="shop-caption">속에서 얼마나 목숨이 커다란 인간의 인간에 교향악이다. 뼈 풍부하게 인도하겠다는 이상의 역사를 품에 곧 어디 얼마나 이것이다. 인생을 구하기 옷을 목숨이 피어나기 같은 이것을 것이다. 창공에 밝은 유소년에게서 관현악이며, 것이다.</p>
+        </div><!-- info box -->
+      </div><!-- container -->  
+    </section>
+  </main>
+
+  <footer id="main-footer">
+    <div class="footer-logo">
+      <a href="#">
+        <img src="images/logo-blackfin.svg" alt="logo">
+      </a>
+    </div>
+    <p class="footer-text">
+      <a href="#">이용약관 |</a>
+      <a href="#">개인정보처리방침</a> -
+      <span>Copyright © 2019 Pramaor Srl - All rights reserved.</span>
+    </p>
+  </footer>
+</body>
+
+</html>

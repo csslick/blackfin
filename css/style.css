@@ -252,6 +252,9 @@ header #main-menu ul li a:hover{
   float: left;
 }
 #sns ul li img{ width: 100%;}
+#sns ul li:hover img{
+  opacity: 0.8;
+}
 
 /* footer */
 #main-footer{
@@ -266,4 +269,21 @@ header #main-menu ul li a:hover{
 #main-footer .footer-logo a img{ width: 100px;}
 .footer-text{
   font-size: 15px;
+}
+
+
+/* sub01 CSS */
+#sub01 main, #buy main{ 
+  overflow: hidden;
+  margin-top: 80px;
+}
+#sub01 #main-header {
+  background: rgba(0, 0, 0, 0.6);
+  height: 80px;
+}
+
+#sub01 #product .container ul.products li:nth-child(3n) {
+  /* 3개씩 줄내림 */
+  margin-right: 0;
+  margin-bottom: 80px;
 }
