@@ -10,21 +10,6 @@
   <link href="https://fonts.googleapis.com/css?family=Nanum+Gothic|Open+Sans&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="css/style.css">
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
-  <style>
-    #buy #section-buy{
-      overflow: hidden;
-    }
-    #buy #section-buy figure{
-      width: 50%;
-      float: left;
-      padding-top: 100px;
-      text-align: center;
-    }
-    #buy #section-buy .info-box{
-      width: 50%;
-      float: left;
-    }
-  </style>
 </head>
 
 <body id="buy">
@@ -57,7 +42,7 @@
     <section id="section-buy">
       <div class="container">
         <figure>
-          <img src="images/sun-product01_thumb.jpg" alt="">
+          <img width="100%" src="images/sun-product01_thumb.jpg" alt="">
         </figure>
 
         <div class="info-box">
@@ -73,17 +58,24 @@
           <!-- 수량 입력 -->
           <div class="quantity">
             <span class="title">수량</span>
-            <button>-</button>
-            <input type="text" value="1">
-            <button>+</button>
+            <div class="btn-group">
+              <button id="btn-sub">-</button>
+              <input 
+                size="1"
+                type="text" 
+                value="1" 
+                id="number">
+              <button id="btn-add">+</button>
+            </div><!-- end btn-group -->
           </div>
           <!-- 구매버튼 -->
-          <button id="btn-buy">구매하기</button>
-          <button id="btn-cart">장바구니에 담기</button>
+          <button id="btn-buy" class="btn-buy">구매하기</button>
+          <button id="btn-cart" class="btn-cart">장바구니에 담기</button>
           <!-- 설명글 -->
-          <p class="shop-caption">속에서 얼마나 목숨이 커다란 인간의 인간에 교향악이다. 뼈 풍부하게 인도하겠다는 이상의 역사를 품에 곧 어디 얼마나 이것이다. 인생을 구하기 옷을 목숨이 피어나기 같은 이것을 것이다. 창공에 밝은 유소년에게서 관현악이며, 것이다.</p>
+          <p class="shop-caption">속에서 얼마나 목숨이 커다란 인간의 인간에 교향악이다. 뼈 풍부하게 인도하겠다는 이상의 역사를 품에 곧 어디 얼마나 이것이다. 인생을 구하기 옷을 목숨이
+            피어나기 같은 이것을 것이다. 창공에 밝은 유소년에게서 관현악이며, 것이다.</p>
         </div><!-- info box -->
-      </div><!-- container -->  
+      </div><!-- container -->
     </section>
   </main>
 

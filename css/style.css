@@ -287,3 +287,82 @@ header #main-menu ul li a:hover{
   margin-right: 0;
   margin-bottom: 80px;
 }
+
+
+/* 구매하기 페이지  */
+#buy #section-buy {
+  overflow: hidden;
+  margin-top: 100px;
+}
+
+#buy #section-buy figure {
+  width: 50%;
+  float: left;
+  padding-top: 100px;
+  text-align: center;
+}
+
+#buy #section-buy .info-box {
+  width: 50%;
+  float: left;
+}
+
+/* 제품 가격 */
+#buy #section-buy .info .price {
+  font-size: 20px;
+  line-height: 2em;
+}
+
+/* 배송비 정보 */
+#buy #section-buy .sub-price {
+  margin-top: 1em;
+  margin-bottom: 1em;
+}
+
+#buy #section-buy .sub-price .title {
+  font-size: 15px;
+  margin-right: 5em;
+}
+
+#buy #section-buy .sub-price .price {
+  font-size: 15px;
+}
+
+/* 수량 입력 */
+#buy #section-buy .quantity {
+  margin-top: 1em;
+  margin-bottom: 1em;
+}
+
+#buy #section-buy .quantity .title {
+  display: block;
+  margin-bottom: 0.5em;
+}
+/* 수량 버튼 UI */
+#buy #section-buy .btn-group{
+  /* border: 1px solid #ddd; */
+  overflow: hidden;
+  margin-bottom: 2em;
+}
+#buy #section-buy .btn-group button, .btn-group #number{
+  float: left;
+  padding: 10px;
+  width: 3em;
+}
+#buy #section-buy .btn-group #number{ 
+  padding-left: 13px;
+}
+#buy #section-buy .btn-buy{
+  padding: 14px 36px;
+  border: none;
+  background: #333;
+  color: #fff;
+  margin-right: 1em;
+}
+#buy #section-buy .btn-cart{
+  padding: 12px 32px;
+  border: 2px solid #333;
+  background: transparent;
+  color: #333;
+}
+#buy #section-buy .shop-caption{ margin-top: 2em;}
