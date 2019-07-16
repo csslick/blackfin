@@ -5,7 +5,7 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <title>Buy(구매) &lt; Blackfin</title>
+  <title>Shops(매장찾기) &lt; Blackfin</title>
   <!-- 구글웹폰트 -->
   <link href="https://fonts.googleapis.com/css?family=Nanum+Gothic|Open+Sans&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="css/style.css">
@@ -13,7 +13,7 @@
   <script src="js/main.js"></script>
 </head>
 
-<body id="buy">
+<body id="sub06">
   <!-- 헤더 -->
   <header id="main-header">
     <div class="container">
@@ -39,44 +39,15 @@
   </header>
 
   <main>
-    <!-- 제품 구매 -->
-    <section id="section-buy">
+    <section id="shops">
       <div class="container">
-        <figure>
-          <img width="100%" src="images/sun-product01_thumb.jpg" alt="">
-        </figure>
-
-        <div class="info-box">
-          <!-- 제품 가격정보 -->
-          <div class="info">
-            <h2>OAKLAND</h2>
-            <span class="price">200,000원</span>
-            <div class="sub-price">
-              <span class="title">배송비</span>
-              <span class="price">3,000원</span>
-            </div>
-          </div>
-          <!-- 수량 입력 -->
-          <div class="quantity">
-            <span class="title">수량</span>
-            <div class="btn-group">
-              <button id="btn-sub">-</button>
-              <input 
-                size="1"
-                type="text" 
-                value="1" 
-                id="number">
-              <button id="btn-add">+</button>
-            </div><!-- end btn-group -->
-          </div>
-          <!-- 구매버튼 -->
-          <button id="btn-buy" class="btn-buy">구매하기</button>
-          <button id="btn-cart" class="btn-cart">장바구니에 담기</button>
-          <!-- 설명글 -->
-          <p class="shop-caption">속에서 얼마나 목숨이 커다란 인간의 인간에 교향악이다. 뼈 풍부하게 인도하겠다는 이상의 역사를 품에 곧 어디 얼마나 이것이다. 인생을 구하기 옷을 목숨이
-            피어나기 같은 이것을 것이다. 창공에 밝은 유소년에게서 관현악이며, 것이다.</p>
-        </div><!-- info box -->
-      </div><!-- container -->
+        <h2>Shops</h2>
+        <p>가까운 지점의 매장을 검색해 보세요.</p>
+        <button class="btn-find">매장찾기</button>
+      </div>
+      <div id="map">
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3162.355390697306!2d126.97481050353863!3d37.57024829369971!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x357ca2eca77ffbd5%3A0x47500cabc5abd077!2z6rSR7ZmU66y47Jet!5e0!3m2!1sko!2skr!4v1563256776256!5m2!1sko!2skr" width="100%" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
+      </div>
     </section>
   </main>
 
@@ -92,6 +63,7 @@
       <span>Copyright © 2019 Pramaor Srl - All rights reserved.</span>
     </p>
   </footer>
+
 </body>
 
 </html>

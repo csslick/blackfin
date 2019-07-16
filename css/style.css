@@ -273,11 +273,12 @@ header #main-menu ul li a:hover{
 
 
 /* sub01 CSS */
-#sub01 main, #buy main{ 
+/* 메인 상당 공통 마진 */
+#sub01 main, #buy main, #sub06 main{ 
   overflow: hidden;
   margin-top: 80px;
 }
-#sub01 #main-header {
+#sub01 #main-header, #sub06 #main-header{
   background: rgba(0, 0, 0, 0.6);
   height: 80px;
 }
@@ -290,6 +291,10 @@ header #main-menu ul li a:hover{
 
 
 /* 구매하기 페이지  */
+#buy #main-header {
+  background: rgba(0, 0, 0, 0.6);
+  height: 80px;
+}
 #buy #section-buy {
   overflow: hidden;
   margin-top: 100px;
@@ -351,6 +356,7 @@ header #main-menu ul li a:hover{
 }
 #buy #section-buy .btn-group #number{ 
   padding-left: 13px;
+
 }
 #buy #section-buy .btn-buy{
   padding: 14px 36px;
@@ -366,3 +372,24 @@ header #main-menu ul li a:hover{
   color: #333;
 }
 #buy #section-buy .shop-caption{ margin-top: 2em;}
+
+/* Shop 매장찾기, 오시는길 */
+#sub06 #shops {
+  overflow: hidden;
+  margin-top: 100px;
+  /* border: 1px solid red; */
+}
+#sub06 #shops .container{
+  text-align: center;
+}
+#sub06 #shops .container p{ margin-bottom: 2em;}
+.btn-find{
+  background: transparent;
+  padding: 0.8em 2em;
+  border: 1px solid #ccc;
+  transition: 0.4s;
+}
+.btn-find:hover{
+  background: #000; color: #fff;
+}
+#map{ margin-top: 3em;}
